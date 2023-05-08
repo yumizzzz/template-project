@@ -5,10 +5,7 @@
 </div>
 
 <div align="center">
-    <a href="https://github.com/psf/black">
-        <img alt="MIT License" src="https://img.shields.io/github/license/yumizzzz/template-project?labelColor=5B7282&color=1e94f3">
-    </a>
-    <img alt="MIT License" src="https://img.shields.io/badge/python-3.8%20%7C%203.9-blue?labelColor=5B7282&color=1e94f3">
+    <img alt="MIT License" src="https://img.shields.io/github/license/yumizzzz/template-project?labelColor=5B7282&color=1e94f3">
     <img alt="python versions" src="https://img.shields.io/badge/python-3.8%20%7C%203.9-blue?labelColor=5B7282&color=1e94f3">
     <a href="https://github.com/psf/black">
         <img alt="black" src="https://img.shields.io/badge/code%20style-black-000000.svg?labelColor=5B7282&color=1e94f3">
