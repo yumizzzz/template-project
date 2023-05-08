@@ -1,10 +1,8 @@
 # template-project
 
-<center>
-
-![image.png](logo.png)
-
-</center>
+<div align="center">
+    <img src="logo.png" alt="logo">
+</div>
 
 <div align="center">
     <a href="https://github.com/psf/black">
