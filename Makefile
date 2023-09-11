@@ -6,7 +6,7 @@ format:
 
 .PHONY: lint
 lint:
-	poetry run flake8 .
+	poetry run pflake8 .
 	poetry run black --check .
 	poetry run isort --check --diff .
 	poetry run mypy .
@@ -14,7 +14,7 @@ lint:
 
 .PHONY: test
 test:
-	poetry run pytest tests
+	poetry run pytest tests -s
 
 .PHONY: serve_doc
 serve_doc:
