@@ -1,0 +1,32 @@
+version: '3.5'
+services:
+  cpu:
+    container_name: project_name.cpu
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.cpu
+    shm_size: '28gb'
+    volumes:
+      - type: bind
+        source: $PWD
+        target: /workspace
+    working_dir: /workspace
+    tty: true
+  gpu:
+    container_name: project_name.gpu
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.gpu
+    shm_size: '28gb'
+    volumes:
+      - type: bind
+        source: $PWD
+        target: /workspace
+    working_dir: /workspace
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [ gpu ]
+    tty: true
