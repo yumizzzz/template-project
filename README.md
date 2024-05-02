@@ -22,12 +22,12 @@ VSCode × Pythonでの開発環境のテンプレート
 
 ## Used libraries
 
-- python3.10
+- python3.12
 - VSCode(devcontainer.json, setting.json, extensions.json)
 - docker
-- poetry
+- Rye + uv
 - Ruff
-- mypy
+- Mypy
 - mdformat
 - pytest
 
