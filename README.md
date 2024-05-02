@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-    <img alt="python versions" src="https://img.shields.io/badge/python-3.10-blue?color=1e94f3">
+    <img alt="python versions" src="https://img.shields.io/badge/python-3.12-blue?color=1e94f3">
     <a href="https://opensource.org/licenses/MIT">
         <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-green?color=1e94f3">
     </a>
