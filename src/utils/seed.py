@@ -4,7 +4,7 @@ import random
 import numpy as np
 
 
-def seed_everything(seed: int):
+def seed_everything(seed: int) -> None:
     """seed値を固定する関数
 
     Args:
@@ -13,4 +13,3 @@ def seed_everything(seed: int):
     random.seed(seed)
     os.environ["PYTHONHASHSEED"] = str(seed)
     np.random.seed(seed)
-
