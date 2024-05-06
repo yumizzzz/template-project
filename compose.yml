@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile.cpu
-    shm_size: '16gb'
+    shm_size: '64gb'
     volumes:
       - type: bind
         source: $PWD
